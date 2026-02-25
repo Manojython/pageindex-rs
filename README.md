@@ -152,7 +152,6 @@ The accuracy difference comes down to node IDs. `1.2.3` is self-explanatory to a
 
 - PDF support (the big one)
 - Cross-document retrieval across a corpus
-- PageRank-style importance scoring on the tree
 
 ### Credits
 https://github.com/VectifyAI/PageIndex?tab=readme-ov-file
