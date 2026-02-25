@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "pageindex-rs"
-version = "0.1.2"
+version = "0.1.3"
 description = "Hierarchical document indexing and tree-based retrieval for RAG pipelines, written in Rust"
 readme = "README.md"
 license = { text = "MIT" }

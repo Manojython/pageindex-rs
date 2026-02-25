@@ -8,7 +8,7 @@ I kept running into the same problem building LLM agents over financial document
 
 The fix is obvious once you see it — structured documents already tell you how they're organized. Every heading is a natural retrieval boundary. `pageindex-rs` just respects that structure. It parses a markdown document into a tree of nodes, one per heading, and at retrieval time you hand the outline to your LLM and ask it which section to look in. One node, exactly the text you need, no embeddings required.
 
-This is a Rust reimplementation of the original [PageIndex](https://github.com/TRAIS-Lab/PageIndex) library with Python bindings via PyO3. The Rust version is faster at scale and more consistent under load — details in the benchmarks below.
+This is a Rust reimplementation of the original [PageIndex](https://github.com/VectifyAI/PageIndex) library with Python bindings via PyO3. The Rust version is faster at scale and more consistent under load — details in the benchmarks below.
 
 ## Installation
 
