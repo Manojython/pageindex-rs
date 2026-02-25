@@ -154,6 +154,11 @@ The accuracy difference comes down to node IDs. `1.2.3` is self-explanatory to a
 - Cross-document retrieval across a corpus
 - PageRank-style importance scoring on the tree
 
+### Credits
+https://github.com/VectifyAI/PageIndex?tab=readme-ov-file
+
+Medium article which inspired this: https://agentnativedev.medium.com/vectorless-rag-for-agents-pageindex-is-why-their-demo-works-and-yours-needs-context-6a9219dcc20e
+
 ## License
 
 MIT

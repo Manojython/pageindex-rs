@@ -5,16 +5,30 @@ build-backend = "maturin"
 [project]
 name = "pageindex-rs"
 version = "0.1.0"
-description = "Hierarchical document indexing and traversal for RAG pipelines"
+description = "Hierarchical document indexing and tree-based retrieval for RAG pipelines, written in Rust"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.8"
-keywords = ["rag", "llm", "document", "indexing", "rust"]
+keywords = ["rag", "llm", "document", "indexing", "retrieval", "rust", "pageindex"]
 classifiers = [
     "Programming Language :: Rust",
     "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Indexing",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Manojython/pageindex-rs"
+Repository = "https://github.com/Manojython/pageindex-rs"
+"Bug Tracker" = "https://github.com/Manojython/pageindex-rs/issues"
 
 [tool.maturin]
 features = ["extension-module"]
