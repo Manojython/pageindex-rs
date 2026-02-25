@@ -1,0 +1,45 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+wheels/
+.venv/
+venv/
+
+# Maturin / PyO3
+*.so
+*.dylib
+*.dll
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large generated benchmark docs
+tests/bench_medium.md
+tests/bench_large.md
+tests/finance_large.md
+tests/finance_xlarge.md
+tests/corporate_finance_wiki.md
+
+# Old scratch notebooks
+tests/benchmark.ipynb
+tests/benchmark_new.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+tests/sample.md
+tests/test_doc.md
