@@ -43,3 +43,4 @@ tests/benchmark_new.ipynb
 .DS_Store
 tests/sample.md
 tests/test_doc.md
+testPageIndex.ipynb
